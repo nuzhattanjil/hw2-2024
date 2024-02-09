@@ -24,6 +24,7 @@ p{
 img{
     width: 250px;
     display: block;
+    margin: 0 auto;
     border: 10px dashed #FFFFFF;
 }
 div{
@@ -31,12 +32,12 @@ div{
     padding: 20px;
     border: 3px solid #FFFFFF;
 }
-.introduction {
+.introduction{
     border-radius: 15px;
     margin-top: 15px;
     line-height: 2;
 }
-.red {
+.red{
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
@@ -44,4 +45,50 @@ div{
     border-left: solid 5px;
     border-right : none;
     border-top: none;
+}
+.blue{
+    background-color: #0000FF;
+    text-align: left;
+    margin-right: 50px;
+    border-right: solid 5px #FFFFFF;
+    border-top: solid 2px #FFFFFF;
+    border-left: none;
+    border-bottom: none;
+    }
+.blue h2{
+        color: #C4C4C4;
+}
+.blue p{
+    color: #C4C4C4;
+}
+
+.yellow {
+    background-color: #FFFF00;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: solid 2px #FFFFFF;
+    border-left: solid 5px #FFFFFF;
+    border-right : none;
+    border-top: none;
+  }
+.yellow p {
+    color: #707070;
+}
+.green {
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border-right: solid 5px #FFFFFF;
+    border-top: solid 2px #FFFFFF;
+    border-left: none;
+    border-bottom: none;
+ }
+footer {
+    background: linear-gradient(#000000, #0000FF 25%, #0066FF 70%, #000000);
+    border: 5px solid #FFFFFF;
+}
+footer p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0;
 }
